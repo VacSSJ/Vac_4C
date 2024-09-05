@@ -1,0 +1,33 @@
+body{
+    display: grid;
+}
+
+button{
+    margin: 5px;
+}
+
+.B-Search{
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+    border: solid 2px;
+    color: #419B9D;
+    border-color: #419B9D;
+}
+
+.B-More{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 100%;
+    color: white;
+    background-color: #5DD2B3;
+}
+
+.B-CreateAccount{
+    width: 150px;
+    height: 25px;
+    color: white;
+    background-color: rgb(50, 114, 252);
+    box-shadow: black 5px 5px 0px;
+}
