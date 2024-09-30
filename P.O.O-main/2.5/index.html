@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="alert(`Button Clicked!`)">Click Me</button>
+    <button ondblclick="alert(`Button double Clicked!`)">Double Click me</button>
+    <button onmouseover="alert(`Mouse over!`)">hover me</button>
+    <button onmouseout="alert(`Mouse out!`)">Move mouse</button>
+    <button onmousemove="alert(`Mouse moved!`)">Move mouse here</button>
+    <br><br>
+    <input type="text" onkeydown="alert(`Key Pressed!`)">
+    <input type="text" onkeyup="alert(`Key realeased!`)">
+    <br><br>
+    <input type="text" onchange="alert(`Value changed!`)">
+    <input type="text" onfocus="alert(`Input focused!`)">
+    <input type="text" onblur="alert(`Input Blurred!`)">
+    <br>
+    <br>
+    <form onsubmit="alert(`Form submitted!`); return false;">
+    <input type="submit" value="submit">
+    </form>
+    <body onload="alert(`page loaded!`)">
+    <body onresize="alert(`window resized!`)">
+    <br>
+    <br>
+    <div ontouchstart="alert(`Touched!`)">Touch me</div>
+    <br>
+    <br>
+    <div draggable="true" ondrag="alert(`Dragging!`)">Drag me</div>
+    <div ondrop="alert(`Dropped!`)">Drop Here</div>
+    <br><br><br><br>
+    <button id="myButton">Click Me</button>
+
+    <script>
+        document.getElementById("myButton").addEventListener("Click"),
+        function(){
+            alert(`Button Clicked!`)
+        }
+    </script>
+</body>
+</html>
