@@ -1,0 +1,24 @@
+body{
+    margin: auto;
+    background-color: rgb(58, 71, 83);
+}
+
+#calculator{
+    background-color: gray;
+    width: 110px;
+    display: flexbox;
+    text-align: center;
+}
+
+.NavBar{
+    background-color: lightslategrey;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+.row{
+}
