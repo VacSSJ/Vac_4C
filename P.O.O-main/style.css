@@ -1,0 +1,25 @@
+body{
+    margin: auto;
+    background-color: rgb(189, 189, 189);
+}
+
+#calculator{
+    background-color: pink;
+    width: 110px;
+    display: flexbox;
+    text-align: center;
+    border-radius: 20px;
+    margin:auto;
+}
+
+.NavBar{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    cursor: pointer;
+    background-color: lightblue;
+    color: black;
+}
